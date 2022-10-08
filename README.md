@@ -11,13 +11,13 @@ This is the underlying code for article [Build an Image Recognition API with Go 
 Build the image.
 
 ```
-$ docker build -t localhost/recognition .
+$ docker build -t email4tong/recognition .
 ```
 
 Run service in a container.
 
 ```
-$ docker run -p 8080:8080 --rm localhost/recognition
+$ docker run -p 8080:8080 --rm email4tong/recognition
 ```
 
 Call the service.
